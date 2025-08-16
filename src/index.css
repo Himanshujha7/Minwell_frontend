@@ -7,6 +7,10 @@
     src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "HelveticaNow";
+    src: url("/fonts/HelveticaNowText-Bold.ttf") format("truetype");
+}
 @theme {
     --color-yellow: #e7d393;
     --color-white-100: #efefef;
@@ -18,7 +22,7 @@
 html,
 body {
     width: 100%;
-    background-color: black;
+    background-color: #0a100d;
     color: white;
     scroll-behavior: smooth;
     overflow-x: hidden;
